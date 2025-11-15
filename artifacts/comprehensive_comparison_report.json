@@ -1,0 +1,117 @@
+{
+    "experiment_date": "2025-11-15T14:26:12.818470+00:00",
+    "baseline_metrics": {
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.9333333333333333,
+        "test_precision": 0.9333333333333333,
+        "test_recall": 0.9333333333333333,
+        "test_f1": 0.9333333333333333
+    },
+    "all_results": [
+        {
+            "poison_type": "none",
+            "poison_level": 0,
+            "train_accuracy": 1.0,
+            "test_accuracy": 0.9333333333333333,
+            "test_precision": 0.9333333333333333,
+            "test_recall": 0.9333333333333333,
+            "test_f1": 0.9333333333333333,
+            "training_time": 0.003507375717163086,
+            "num_poisoned": 0
+        },
+        {
+            "poison_type": "random_noise",
+            "poison_level": 5,
+            "train_accuracy": 1.0,
+            "test_accuracy": 0.9333333333333333,
+            "test_precision": 0.9333333333333333,
+            "test_recall": 0.9333333333333333,
+            "test_f1": 0.9333333333333333,
+            "training_time": 0.0027141571044921875,
+            "num_poisoned": 6,
+            "accuracy_degradation": 0.0,
+            "accuracy_degradation_pct": 0.0
+        },
+        {
+            "poison_type": "random_noise",
+            "poison_level": 10,
+            "train_accuracy": 0.9833333333333333,
+            "test_accuracy": 0.9,
+            "test_precision": 0.9023569023569024,
+            "test_recall": 0.9,
+            "test_f1": 0.8997493734335839,
+            "training_time": 0.0017032623291015625,
+            "num_poisoned": 12,
+            "accuracy_degradation": 0.033333333333333326,
+            "accuracy_degradation_pct": 3.5714285714285707
+        },
+        {
+            "poison_type": "random_noise",
+            "poison_level": 50,
+            "train_accuracy": 0.9416666666666667,
+            "test_accuracy": 0.8333333333333334,
+            "test_precision": 0.8498168498168498,
+            "test_recall": 0.8333333333333334,
+            "test_f1": 0.8294970161977834,
+            "training_time": 0.0023336410522460938,
+            "num_poisoned": 60,
+            "accuracy_degradation": 0.09999999999999998,
+            "accuracy_degradation_pct": 10.714285714285712
+        },
+        {
+            "poison_type": "label_flip",
+            "poison_level": 5,
+            "train_accuracy": 0.9833333333333333,
+            "test_accuracy": 0.8333333333333334,
+            "test_precision": 0.8425925925925927,
+            "test_recall": 0.8333333333333334,
+            "test_f1": 0.8341307814992026,
+            "training_time": 0.001417398452758789,
+            "num_poisoned": 6,
+            "accuracy_degradation": 0.09999999999999998,
+            "accuracy_degradation_pct": 10.714285714285712
+        },
+        {
+            "poison_type": "label_flip",
+            "poison_level": 10,
+            "train_accuracy": 0.925,
+            "test_accuracy": 0.9333333333333333,
+            "test_precision": 0.9393939393939393,
+            "test_recall": 0.9333333333333333,
+            "test_f1": 0.9312169312169313,
+            "training_time": 0.002729177474975586,
+            "num_poisoned": 12,
+            "accuracy_degradation": 0.0,
+            "accuracy_degradation_pct": 0.0
+        },
+        {
+            "poison_type": "label_flip",
+            "poison_level": 50,
+            "train_accuracy": 0.7416666666666667,
+            "test_accuracy": 0.6,
+            "test_precision": 0.55,
+            "test_recall": 0.6,
+            "test_f1": 0.5527472527472527,
+            "training_time": 0.0015392303466796875,
+            "num_poisoned": 60,
+            "accuracy_degradation": 0.33333333333333337,
+            "accuracy_degradation_pct": 35.714285714285715
+        }
+    ],
+    "summary": {
+        "total_experiments": 7,
+        "poison_types_tested": [
+            "label_flip",
+            "none",
+            "random_noise"
+        ],
+        "poison_levels_tested": [
+            0,
+            5,
+            10,
+            50
+        ],
+        "worst_accuracy_drop": 0.33333333333333337,
+        "best_poisoned_accuracy": 0.9333333333333333
+    }
+}

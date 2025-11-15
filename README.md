@@ -1,2 +1,28 @@
-# mlops-w8
-Week 8 GA | IITM BS MLOps Course
+\# Week 8 Data Poisoning GA 
+
+
+
+\## Directory structure
+
+
+
+```
+
+artifacts
+
+data/iris.csv
+
+README.md
+
+W8\_GA.ipynb
+
+```
+
+
+
+\## Description
+
+
+
+* \*\*`W8\_GA.ipynb` :\*\* This is the notebook file to evaluate. 
+* 

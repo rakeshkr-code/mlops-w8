@@ -1,0 +1,33 @@
+{
+    "setosa": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 10.0
+    },
+    "versicolor": {
+        "precision": 0.5,
+        "recall": 0.8,
+        "f1-score": 0.6153846153846154,
+        "support": 10.0
+    },
+    "virginica": {
+        "precision": 0.25,
+        "recall": 0.1,
+        "f1-score": 0.14285714285714285,
+        "support": 10.0
+    },
+    "accuracy": 0.6,
+    "macro avg": {
+        "precision": 0.5499999999999999,
+        "recall": 0.6000000000000001,
+        "f1-score": 0.5527472527472527,
+        "support": 30.0
+    },
+    "weighted avg": {
+        "precision": 0.55,
+        "recall": 0.6,
+        "f1-score": 0.5527472527472527,
+        "support": 30.0
+    }
+}
